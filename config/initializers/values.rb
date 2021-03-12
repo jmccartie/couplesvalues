@@ -1,0 +1,1 @@
+VALUES = YAML.load_file("#{Rails.root}/config/values.yml")

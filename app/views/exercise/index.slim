@@ -1,0 +1,24 @@
+h1 Exercise
+
+p Instructions
+
+hr
+
+form
+  - VALUES.shuffle.each do |value|
+    h4= value["title"].titleize
+    p= value["description"]
+
+
+    div
+      = radio_button_tag value['title'], 0
+      p Not Important to me
+    div
+      = radio_button_tag value['title'], 1
+      p Important to me
+    div
+      = radio_button_tag value['title'], 2
+      p Very Important to  me
+
+
+  = submit_tag 'Submit'
