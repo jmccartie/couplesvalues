@@ -4,21 +4,28 @@ p Instructions
 
 hr
 
-form
-  - VALUES.shuffle.each do |value|
-    h4= value["title"].titleize
-    p= value["description"]
+= form_tag exercise_create_path do
+  - VALUES.to_a.shuffle.to_h.each do |title, description|
+    - name = "result[data][#{title}]"
+    h4= title.titleize
+    p= description
+
+    .row.form-group
+      .col
+        .text-center
+          = radio_button_tag name, 0, true
+          br
+          label Not Important to me
+      .col
+        .text-center
+          = radio_button_tag name, 1
+          br
+          p Important to me
+      .col
+        .text-center
+          = radio_button_tag name, 2
+          br
+          p Very Important to  me
 
 
-    div
-      = radio_button_tag value['title'], 0
-      p Not Important to me
-    div
-      = radio_button_tag value['title'], 1
-      p Important to me
-    div
-      = radio_button_tag value['title'], 2
-      p Very Important to  me
-
-
-  = submit_tag 'Submit'
+  = submit_tag 'Submit', class: 'btn btn-primary'

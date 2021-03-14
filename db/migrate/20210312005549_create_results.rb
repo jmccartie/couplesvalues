@@ -1,6 +1,10 @@
 class CreateResults < ActiveRecord::Migration[6.1]
   def change
-    create_table :results do |t|
+    enable_extension 'uuid-ossp'
+    enable_extension 'pgcrypto'
+
+
+    create_table :results, id: :uuid do |t|
       t.jsonb :data
 
       t.timestamps

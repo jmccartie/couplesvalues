@@ -1,174 +1,91 @@
-- title: adventure
-  description: to have new and exciting experiences
-- title: beauty
-  description: to appreciate beauty around me
-- title: change
-  description: to have a life full of change and variety
-- title: courtesy
-  description: to be considerate and polite toward others
-- title: dependability
-  description: to be reliable and trustworthy
-- title: ecology
-  description: to live in harmony with the environment
-- title: excitement
-  description: to have a life full of thrills and stimulation
-- title: faithfulness
-  description: to be loyal and true in relationships
-- title: family
-  description: to have a happy, loving family
-- title: flexibility
-  description: to adjust to new circumstances easily
-- title: forgiveness
-  description: to be forgiving of others
-- title: friendship
-  description: to have close, supportive friends
-- title: fun
-  description: to play and have fun
-- title: honesty
-  description: to be honest and truthful
-- title: hope
-  description: to maintain a positive and optimistic outlook
-- title: humor
-  description: to see the humorous side of myself and the world
-- title: leisure
-  description: to take time to relax and enjoy
-- title: openness
-  description: to be open to new experiences, ideas, and options
-- title: passion
-  description: to have deep feelings about ideas, activities, or people
-- title: pleasure
-  description: to feel good
-- title: popularity
-  description: to be well-liked by many people
-- title: rationality
-  description: to be guided by reason and logic
-- title: realism
-  description: to see and act realistically and practically
-- title: romance
-  description: to have intense, exciting love in my life
-- title: self-esteem
-  description: to feel good about myself
-- title: sexuality
-  description: to have an active and satisfying sex life
+"adventure": to have new and exciting experiences
+"beauty": to appreciate beauty around me
+"change": to have a life full of change and variety
+"courtesy": to be considerate and polite toward others
+"dependability": to be reliable and trustworthy
+"ecology": to live in harmony with the environment
+"excitement": to have a life full of thrills and stimulation
+"faithfulness": to be loyal and true in relationships
+"family": to have a happy, loving family
+"flexibility": to adjust to new circumstances easily
+"forgiveness": to be forgiving of others
+"friendship": to have close, supportive friends
+"fun": to play and have fun
+"honesty": to be honest and truthful
+"hope": to maintain a positive and optimistic outlook
+"humor": to see the humorous side of myself and the world
+"leisure": to take time to relax and enjoy
+"openness": to be open to new experiences, ideas, and options
+"passion": to have deep feelings about ideas, activities, or people
+"pleasure": to feel good
+"popularity": to be well-liked by many people
+"rationality": to be guided by reason and logic
+"realism": to see and act realistically and practically
+"romance": to have intense, exciting love in my life
+"self-esteem": to feel good about myself
+"sexuality": to have an active and satisfying sex life
 
 
-- title: acceptance
-  description: to be accepted as I am
-- title: accuracy
-  description: to be accurate in my opinions and beliefs
-- title: achievement
-  description: to have important accomplishments
-- title: attractiveness
-  description: to be physically attractive
-- title: autonomy
-  description: to be self-determined and independent
-- title: comfort
-  description: to have a pleasant and comfortable life
-- title: cooperation
-  description: to work collaboratively with others
-- title: creativity
-  description: to have new and original ideas
-- title: duty
-  description: to carry out my duties and obligations
-- title: fitness
-  description: to be physically fit and strong
-- title: generosity
-  description: to give what I have to others
-- title: genuineness
-  description: to act in a manner that is true to who I am
-- title: growth
-  description: to keep changing and growing
-- title: health
-  description: to be physically well and healthy
-- title: helpfulness
-  description: to be helpful to others
-- title: humility
-  description: to be modest and unassuming
-- title: independence
-  description: to be free from dependence on others
-- title: industry
-  description: to work hard and well at my life tasks
-- title: inner peace
-  description: to experience personal peace
-- title: intimacy
-  description: to share my innermost experiences with others
-- title: justice
-  description: to promote fair and equal treatment for all
-- title: loved
-  description: to be loved by those close to me
-- title: loving
-  description: to give love to others
-- title: mastery
-  description: to be competent in my everyday activities
-- title: mindfulness
-  description: to live conscious and mindful of the present moment
-- title: monogamy
-  description: to have one close, loving relationship
-- title: purpose
-  description: to have meaning and direction in my life
-- title: responsibility
-  description: to make and carry out responsible decisions
-- title: safety
-  description: to be safe and secure
-- title: self-acceptance
-  description: to accept myself as I am
-- title: self-control
-  description: to be disciplined in my own actions
-- title: self-knowledge
-  description: to have a deep and honest understanding of myself
-- title: simplicity
-  description: to live life simply, with minimal needs
-- title: solitude
-  description: to have time and space where I can be apart from others
-- title: tolerance
-  description: to accept and respect those who differ from me
-- title: virtue
-  description: to live a morally pure and excellent life
-- title: wealth
-  description: to have plenty of money
+"acceptance": to be accepted as I am
+"accuracy": to be accurate in my opinions and beliefs
+"achievement": to have important accomplishments
+"attractiveness": to be physically attractive
+"autonomy": to be self-determined and independent
+"comfort": to have a pleasant and comfortable life
+"cooperation": to work collaboratively with others
+"creativity": to have new and original ideas
+"duty": to carry out my duties and obligations
+"fitness": to be physically fit and strong
+"generosity": to give what I have to others
+"genuineness": to act in a manner that is true to who I am
+"growth": to keep changing and growing
+"health": to be physically well and healthy
+"helpfulness": to be helpful to others
+"humility": to be modest and unassuming
+"independence": to be free from dependence on others
+"industry": to work hard and well at my life tasks
+"inner peace": to experience personal peace
+"intimacy": to share my innermost experiences with others
+"justice": to promote fair and equal treatment for all
+"loved": to be loved by those close to me
+"loving": to give love to others
+"mastery": to be competent in my everyday activities
+"mindfulness": to live conscious and mindful of the present moment
+"monogamy": to have one close, loving relationship
+"purpose": to have meaning and direction in my life
+"responsibility": to make and carry out responsible decisions
+"safety": to be safe and secure
+"self-acceptance": to accept myself as I am
+"self-control": to be disciplined in my own actions
+"self-knowledge": to have a deep and honest understanding of myself
+"simplicity": to live life simply, with minimal needs
+"solitude": to have time and space where I can be apart from others
+"tolerance": to accept and respect those who differ from me
+"virtue": to live a morally pure and excellent life
+"wealth": to have plenty of money
 
 
 
-- title: authority
-  description: to be in charge of and responsible for others
-- title: caring
-  description: to take care of others
-- title: challenge
-  description: to take on difficult tasks and problems
-- title: commitment
-  description: to make enduring, meaningful commitments
-- title: compassion
-  description: to feel and act on concern for others
-- title: contribution
-  description: to make a lasting contribution in the world
-- title: fame
-  description: to be known and recognized
-- title: god’s will
-  description: to seek and obey the will of God
-- title: knowledge
-  description: to learn and contribute valuable knowledge
-- title: moderation
-  description: to avoid excesses and find a middle ground
-- title: non-conformity
-  description: to question and challenge authority and norms
-- title: nurturance
-  description: to take care of and nurture others
-- title: order
-  description: to have a life that is well-ordered and organized
-- title: power
-  description: to have control over others
-- title: risk
-  description: to take risks and chances
-- title: service
-  description: to be of service to others
-- title: spirituality
-  description: to grow and mature spiritually
-- title: stability
-  description: to have a life that stays fairly consistent
-- title: tradition
-  description: to follow respected patterns of the past
-- title: world peace
-  description: to work to promote peace in the world
+"authority": to be in charge of and responsible for others
+"caring": to take care of others
+"challenge": to take on difficult tasks and problems
+"commitment": to make enduring, meaningful commitments
+"compassion": to feel and act on concern for others
+"contribution": to make a lasting contribution in the world
+"fame": to be known and recognized
+"god’s will": to seek and obey the will of God
+"knowledge": to learn and contribute valuable knowledge
+"moderation": to avoid excesses and find a middle ground
+"non-conformity": to question and challenge authority and norms
+"nurturance": to take care of and nurture others
+"order": to have a life that is well-ordered and organized
+"power": to have control over others
+"risk": to take risks and chances
+"service": to be of service to others
+"spirituality": to grow and mature spiritually
+"stability": to have a life that stays fairly consistent
+"tradition": to follow respected patterns of the past
+"world peace": to work to promote peace in the world
 
 
 

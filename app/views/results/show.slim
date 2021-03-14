@@ -1,0 +1,9 @@
+h1 Result
+
+- {"Very Important" => 2, "Important" => 1, "Not Important" => 0}.each do |title, value|
+  h2= title
+  - @result.importance(value).each do |item, score|
+    dl
+      dt= item.titleize
+      dd= VALUES[item]
+  hr
