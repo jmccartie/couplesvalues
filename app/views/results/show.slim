@@ -1,9 +1,38 @@
 h1 Result
 
-- {"Very Important" => 2, "Important" => 1, "Not Important" => 0}.each do |title, value|
-  h2= title
-  - @result.importance(value).each do |item, score|
+p
+  em Created by #{@result.name} on #{@result.created_at}
+
+p
+  | See how your friend or partner compares!&nbsp;
+  = link_to "Share Link", exercise_index_path(compare_to: @result.id)
+
+- if @compare_to
+  h3 You're comparing with #{@compare_to.name}'s results!
+  p Let's see the similarities and differences!
+
+  h2 In Common
+
+  p You BOTH scored these items the same:
+  - @result.compared_to(@compare_to)[:same].each do |value|
     dl
-      dt= item.titleize
-      dd= VALUES[item]
-  hr
+      dt #{value.titleize} (#{Result::RATINGS.key(@result.data[value])})
+      dd= VALUES[value]
+
+
+  h2 Different
+  p You DISAGREED on these:
+  - @result.compared_to(@compare_to)[:different].each do |value|
+    dl
+      dt #{value.titleize} (You: "#{Result::RATINGS.key(@result.data[value])}", Them: "#{Result::RATINGS.key(@compare_to.data[value])}")
+      dd= VALUES[value]
+
+
+- else
+  - Result::RATINGS.each do |title, rating|
+    h2= title
+    - @result.importance(rating).each do |item, score|
+      dl
+        dt= item.titleize
+        dd= VALUES[item]
+    hr

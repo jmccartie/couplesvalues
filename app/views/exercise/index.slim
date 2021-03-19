@@ -4,28 +4,36 @@ p Instructions
 
 hr
 
-= form_tag exercise_create_path do
-  - VALUES.to_a.shuffle.to_h.each do |title, description|
-    - name = "result[data][#{title}]"
-    h4= title.titleize
-    p= description
+= form_tag results_path do
+  .row
+    .col-3
+      .form-group.mb-5
+        h4 Your Name
+        = text_field_tag "result[name]", {}, class: "form-control", required: true
 
-    .row.form-group
-      .col
-        .text-center
-          = radio_button_tag name, 0, true
-          br
-          label Not Important to me
-      .col
-        .text-center
-          = radio_button_tag name, 1
-          br
-          p Important to me
-      .col
-        .text-center
-          = radio_button_tag name, 2
-          br
-          p Very Important to  me
+  - VALUES.to_a.shuffle.to_h.each do |title, description|
+    .row.mb-5
+      .col-6
+        - name = "result[data][#{title}]"
+        h4= title.titleize
+        p= description
+
+        .row.form-group
+          .col
+            .text-center
+              = radio_button_tag name, 0, true
+              br
+              label Not Important to me
+          .col
+            .text-center
+              = radio_button_tag name, 1
+              br
+              p Important to me
+          .col
+            .text-center
+              = radio_button_tag name, 2
+              br
+              p Very Important to  me
 
 
   = submit_tag 'Submit', class: 'btn btn-primary'
